@@ -3,6 +3,7 @@ class ProductsController < ApplicationController
 
   # GET /products
   def index
+    @message = 'Welcome!!!'
     @products = Product.all
   end
 
